@@ -1,18 +1,20 @@
-/* header {
+/* Header styling */
+header {
   display: flex;
   align-items: center;
-  background-color: #2e8b57; /* Green background (SeaGreen) */
+  background-color: #2e8b57; /* SeaGreen background */
   padding: 15px;
   border-bottom: 2px solid #ddd;
-  color: white; /* Makes the text white for better contrast */
+  color: white; /* White text for contrast */
 }
 
 /* Logo styling */
 .logo {
-  width: 60px;    /* Adjust size as needed */
+  width: 80px;   /* Adjust size if needed */
   height: auto;
   margin-right: 20px;
 }
+
 /* Headings */
 h1 {
   font-size: 40px;
