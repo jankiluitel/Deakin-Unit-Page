@@ -1,37 +1,14 @@
-/* Header styling */
-header {
-  display: flex;
-  align-items: center;
-  background-color: #2e8b57; /* SeaGreen background */
-  padding: 15px;
-  border-bottom: 2px solid #ddd;
-  color: white; /* White text for contrast */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Logo styling */
-.logo {
-  width: 80px;   /* Adjust size if needed */
-  height: auto;
-  margin-right: 20px;
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
 }
 
-/* Headings */
-h1 {
-  font-size: 40px;
-  font-family: Arial, sans-serif;
-  margin: 0;   /* Remove default spacing */
-}
-
-h2 {
-  font-size: 25px;
-  font-family: Arial, sans-serif;
-}
-
-h3 {
-  font-family: Arial, sans-serif;
-}
-
-p {
-  font-size: 14px;
-  font-family: Arial, sans-serif;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
